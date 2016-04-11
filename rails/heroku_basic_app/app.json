@@ -1,0 +1,13 @@
+{
+  "name": "Heroku Basic App",
+  "description": "Template of app.json for heroku-docker",
+  "image": "heroku/ruby",
+  "addons": [
+    "heroku-postgresql",
+    "airbrake",
+    "newrelic",
+    "papertrail",
+    "scheduler",
+    "sendgrid"
+  ]
+}
